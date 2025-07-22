@@ -1,0 +1,27 @@
+<!-- app/src/main/res/layout/fragment_cart.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFF8F0">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFF8F0"/>
+
+    <Button
+        android:id="@+id/buttonCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:textColor="#FFF8F0"
+        android:backgroundTint="#6D4C41"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="serif"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

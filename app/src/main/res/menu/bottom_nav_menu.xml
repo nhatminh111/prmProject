@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/outline_add_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/outline_add_shopping_cart_24"
+        android:title="Cart"/>
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Orders"/>
+    <item
+        android:id="@+id/nav_map"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Map"/>
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Log Out"/>
+</menu>

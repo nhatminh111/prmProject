@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookStore</string>
+    <string name="book_author_price">By %1$s - $%2$.2f</string>
+    <string name="order_info">Order #%1$d - $%2$.2f</string>
+    <string name="order_date">Date: %1$s</string>
+    <string name="cart_price_total">$%1$.2f | Total: $%2$.2f</string>
+    <string name="checkout">Checkout</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="view_cart">View Cart</string>
+    <string name="decrease">&#45;</string>
+    <string name="increase">&#43;</string>
+    <string name="remove">Remove</string>
+    <string name="app_icon">App icon</string>
+    <string name="login_title">BookStore Login</string>
+    <string name="sign_up_title">BookStore Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_account">Already have an account? Log In</string>
+</resources>
