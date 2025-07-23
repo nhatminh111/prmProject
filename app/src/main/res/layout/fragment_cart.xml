@@ -22,7 +22,7 @@
         android:text="Checkout"
         android:textSize="16sp"
         android:textColor="#FFFFFF"
-        android:backgroundTint="#4CAF50"
+        android:backgroundTint="#000000"
         app:cornerRadius="8dp"
         android:layout_margin="12dp" />
 </LinearLayout>
