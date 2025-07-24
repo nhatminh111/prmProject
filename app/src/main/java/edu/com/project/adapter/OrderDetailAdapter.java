@@ -47,7 +47,7 @@ public class OrderDetailAdapter extends RecyclerView.Adapter<OrderDetailAdapter.
             holder.textTitle.setText(detail.getBookTitle());
             holder.textAuthor.setText("");
         }
-        holder.textPrice.setText("Price: $" + detail.getPrice());
+        holder.textPrice.setText("$" + detail.getPrice());
         holder.textQuantity.setText("Quantity: " + detail.getQuantity());
     }
 
