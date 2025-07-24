@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Header: Back + Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/buttonBack"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_arrow_back"
+                android:contentDescription="Back"
+                app:tint="#FF5722" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Information Screen"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+        </LinearLayout>
+
+        <!-- Trường nhập thông tin -->
+        <EditText
+            android:id="@+id/etName"
+            android:hint="Full Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:hint="Email Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etAddress"
+            android:hint="Street Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etCity"
+            android:hint="City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etZipCode"
+            android:hint="Zip Code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etNote"
+            android:hint="Note (Optional)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:padding="12dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Shipping Method Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose shipping method below:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupShipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioDirect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Payment On Cash"
+                android:buttonTint="#000000"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:background="?attr/selectableItemBackground"
+                android:layout_marginBottom="16dp" />
+        </RadioGroup>
+
+
+        <!-- Confirm Order -->
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Order"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
