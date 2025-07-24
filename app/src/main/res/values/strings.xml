@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BookStore</string>
+    <string name="app_name">ShoesStore</string>
     <string name="book_author_price">By %1$s - $%2$.2f</string>
     <string name="order_info">Order #%1$d - $%2$.2f</string>
     <string name="order_date">Date: %1$s</string>
@@ -16,8 +16,8 @@
     <string name="increase">&#43;</string>
     <string name="remove">Remove</string>
     <string name="app_icon">App icon</string>
-    <string name="login_title">BookStore Login</string>
-    <string name="sign_up_title">BookStore Sign Up</string>
+    <string name="login_title">ShoesStore Login</string>
+    <string name="sign_up_title">ShoesStore Sign Up</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_account">Already have an account? Log In</string>
 </resources>

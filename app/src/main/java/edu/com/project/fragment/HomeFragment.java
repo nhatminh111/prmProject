@@ -31,11 +31,11 @@ public class HomeFragment extends Fragment {
         // 1. Branding carousel
         ViewPager2 carouselViewPager = view.findViewById(R.id.carouselViewPager);
         List<String> brandingImages = Arrays.asList(
-                "https://t3.ftcdn.net/jpg/08/15/90/80/360_F_815908053_Mfy2DJfv1iFSdL6ET9pRD5R5VzOOEu5k.jpg",
-                "https://media.gettyimages.com/id/1280180705/photo/female-customer-at-a-bookstore.jpg?s=612x612&w=gi&k=20&c=ub5fyYoKbwVNBs8m3ztWCCcWWO4NRonuuXyDIuHmrlY=",
-                "https://www.ericarobynreads.com/wp-content/uploads/2021/07/IMG_1133.jpeg",
-                "https://media.istockphoto.com/id/1438199519/photo/young-people-at-the-book-shop.jpg?s=612x612&w=0&k=20&c=JLQOCYbkL_11Emzc-xrFLvr3MMUxqo5wF71mCYWonnQ=",
-                "https://i0.wp.com/heyimreading.com/wp-content/uploads/2024/08/img_0329.jpg?fit=1200%2C900&ssl=1"
+                "https://tse3.mm.bing.net/th/id/OIP.h6M_wDjfSAj4F4c1MeOwYgHaEK?pid=Api&P=0&h=220",
+                "https://tse1.mm.bing.net/th/id/OIP.4WF0bbwUN4t8thjExiJXfQHaDq?pid=Api&P=0&h=220",
+                "https://tse3.mm.bing.net/th/id/OIP.WzqX8UxKKM0dI95LYm0JfgHaDe?pid=Api&P=0&h=220",
+                "https://tse2.mm.bing.net/th/id/OIP.onzVGdQVNX1d5h3CTcc7PwHaDO?pid=Api&P=0&h=220",
+                "https://tse1.mm.bing.net/th/id/OIP.2ZjEEB6TGRkKdVYheBw8HQHaEo?pid=Api&P=0&h=220"
         );
         carouselViewPager.setAdapter(new BrandingCarouselAdapter(brandingImages));
 
@@ -88,7 +88,7 @@ public class HomeFragment extends Fragment {
 
         // 3. Search functionality
         SearchView searchView = view.findViewById(R.id.searchView);
-        searchView.setQueryHint("Search books...");
+        searchView.setQueryHint("Search sneakers, brands, or styles...");
         searchView.setIconifiedByDefault(false);
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
